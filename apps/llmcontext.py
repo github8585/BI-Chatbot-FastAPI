@@ -5,7 +5,7 @@ from langchain_experimental.sql import SQLDatabaseChain
 from langchain.chat_models import ChatOpenAI
 
 # Initialize the Chat model with OpenAI API key
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "OPENAI_API_KEY"
 chat_model = ChatOpenAI(temperature=0, openai_api_key=OPENAI_API_KEY)
 
 host = "db_host"
